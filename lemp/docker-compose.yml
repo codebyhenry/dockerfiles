@@ -1,4 +1,4 @@
-# git clone https://github.com/codebyhenry/dockerfiles/edit/main/lemp
+# https://github.com/codebyhenry/dockerfiles/edit/main/lemp
 # https://linuxiac.com/how-to-set-up-lemp-stack-with-docker-compose/
 
 # in the $HOME folder or where you like the data to be
@@ -36,7 +36,6 @@ services:
     mariadb:
         image: mariadb:10.9
         environment:
-
             MYSQL_ROOT_PASSWORD: yr_password_321
         volumes:
             - mysqldata:/var/lib/mysql
@@ -53,5 +52,4 @@ services:
 
 # Volumes
 volumes:
-
   mysqldata:

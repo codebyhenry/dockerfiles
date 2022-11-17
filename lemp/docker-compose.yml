@@ -32,11 +32,12 @@ services:
         depends_on:
             - php
 
-    # MariaDB Service
+    # MariaDB Service (default user: root)
     mariadb:
         image: mariadb:10.9
         environment:
-            MYSQL_ROOT_PASSWORD: your_password
+
+            MYSQL_ROOT_PASSWORD: yr_password_321
         volumes:
             - mysqldata:/var/lib/mysql
 

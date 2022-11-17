@@ -4,10 +4,10 @@ this a simple docker php server app intended for developers and home labs, you n
 
 Lemp is short for
 
-Linux. 
-Nginx (pronunciation: engine X). 
-MariaDB (a SQL type DB). 
-PHP (latest stable version). 
+Linux.  
+Nginx (pronunciation: engine X).  
+MariaDB (a SQL type DB).  
+PHP (latest stable version).  
 
 
 [download zip](http://gg.gg/git-docker-lemp) 

@@ -1,6 +1,7 @@
-# lemp stack for docker
+# lemp stack for [Docker](https://github.com/docker/docker-install)
+this is a simple php server app intended for developers and home labs, it will mount the php-files to a local home dir and the DB will be in a volume. 
 
-this a simple docker php server app intended for developers and home labs, you need to add securities options for production or use a more advanced script for docker swarm and kubernetes.
+you will need to add securities options for live production or use more advanced scripts for docker swarm and kubernetes.
 
 Lemp is short for
 

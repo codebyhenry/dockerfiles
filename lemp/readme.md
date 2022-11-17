@@ -1,3 +1,9 @@
-# lemp readme
+# lemp stack for docker
 
-comming soon
+Lemp is short for
+
+Linux
+Nginx (pronunciation: engine X)
+MariaDB (a SQL type DB)
+PHP (latest stable version)
+

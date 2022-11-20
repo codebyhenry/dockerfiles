@@ -60,13 +60,47 @@ other commands
 
   ```
   multipass list // shows you ip address and list of VM instances 
+  multipass network // shows all your ip adresses 
   ```
    
   ```
   multipass exec <instance> bash // opens the instance terminal 
   ```
   
+  or
+  
+  ```
+  multipass shell <instance>
+  ```
+  
   ```
   multipass info <instance>   
+  ```
+  
+  to delete and remove, 
+  ```
+  multipass delete <instance>  // if you want to restore use: recover
+  multipass purge //  clean residuals  
+  ```
+  
+  ```
+  multipass start/stop/suspend
+  
+  Available commands:
+  alias         Create an alias
+  aliases       List available aliases
+  unalias       Remove aliases
+
+  more:
+  authenticate  Authenticate client
+  find          Display available images to create instances from
+  get           Get a configuration setting
+  help          Display help about a command
+  set           Set a configuration setting
+  transfer      Transfer files between the host and instances
+  umount        Unmount a directory from an instance
+  version       Show version details  
+  
+  
   ```
 

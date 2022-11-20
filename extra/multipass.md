@@ -1,6 +1,6 @@
 # Multipass
 
-a quick way to run headless linux. you can install multipass on windows, mac and even linux itself. Why you want to do that?. sometimes you want extra layers, so the host and guest machines only interact on parts you want or need. run containerized apps like a webserver with a database with the multipass docker & portainer image.
+a quick way to run headless linux instance. you can install multipass on windows, mac and even linux itself. Why you want to do that?. sometimes you want extra layers, so the host and guest machines only interact on parts you want or need. run containerized apps like a webserver with a database with the multipass docker & portainer image.
 
 
 [download and install](https://multipass.run/install)
@@ -28,7 +28,7 @@ example:
 
 ## mount during launch
   
-  you can create mount(bind) points to the VM. but you cant do this in the $HOME so you need to map it to a folder
+  you can create mount(bind) points to the guest instance. but you cant do this in the $HOME so you need to map it to a folder, you can use any name and as much mounts you like.
 
 example 
 
@@ -53,7 +53,10 @@ multipass launch docker \
 example if you want to bind a local (home)folder to the guest. 
 
   ```
-  multipass mount $HOME/mpdocker mpdocker:~/mpdocker
+  multipass mount $HOME/mpdocker mpdocker:~/mpdocker1
+  multipass mount /path/to/mount mpdocker:~/mpdocker2 
+  etc
+
   ```
 
 other commands

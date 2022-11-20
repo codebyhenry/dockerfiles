@@ -50,7 +50,7 @@ multipass launch docker \
 
 ## mount after launch
 
-example if you want to mount an instance called mpdocker and have a same local folder you want to mount. 
+example if you want to bind a local (home)folder to the guest. 
 
   ```
   multipass mount $HOME/mpdocker mpdocker:~/mpdocker

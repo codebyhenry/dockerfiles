@@ -1,6 +1,6 @@
 # Multipass
 
-an easy way to run headless linux (LXD) containers as lightweight but powerfull alternative to VM. you can install multipass on windows, mac and even linux itself. Why you want to do that?. sometimes you want extra layers, so the host and guest machines only interact on parts you want or need. in the VM you can have a linux base and run small containerized apps like a webserver with a database with tools like docker.
+a quick way to run headless linux. you can install multipass on windows, mac and even linux itself. Why you want to do that?. sometimes you want extra layers, so the host and guest machines only interact on parts you want or need. run containerized apps like a webserver with a database with the multipass docker & portainer image.
 
 
 [download and install](https://multipass.run/install)

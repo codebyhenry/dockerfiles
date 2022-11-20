@@ -41,10 +41,10 @@ or
 ```
 multipass launch docker \
 --mount $HOME/mpdocker:/home/ubuntu/mpdocker \
---c 4 \
---d 40G \
---m 4G \
---n mpdocker
+-c 4 \
+-d 40G \
+-m 4G \
+-n mpdocker
 ```
 
 

@@ -5,16 +5,10 @@ a quick way to run headless linux instance. you can install multipass on windows
 
 [download and install](https://multipass.run/install)
 
-`tip: install it via chocolatey on windows or brew.sh for mac and apt or yay on linux.`
-
-`tip: build a zerotier network with tailscale`
-
-```
-  curl -fsSL https://tailscale.com/install.sh | sh
-  sudo tailscale up
-  ```
-
-
+tip: install it on:
+ - windows via chocolatey (choco install multipass).
+ - mac via brew.sh (brew install multipass).
+ - or via yay, apt, zypper, etc... on linux.
 
 ### commands
 
@@ -29,16 +23,19 @@ example:
 ## mount during launch
   
   you can create mount(bind) points to the guest instance. but you cant do this in the $HOME so you need to map it to a folder, you can use any name and as much mounts you like.
+  
+  step 1: mkdir -p <name_of_the_workfolder>
 
-example 
-
+  example
 ``` 
+mkdir -p mpdocker
 multipass launch docker --mount $HOME/mpdocker:~/mpdocker --cpus 4 --disk 40G --mem 4G --name mpdocker 
 ```
 
 or 
 
 ```
+mkdir -p mpdocker
 multipass launch docker \
 --mount $HOME/mpdocker:/home/ubuntu/mpdocker \
 -c 4 \
@@ -106,4 +103,13 @@ other commands
   
   
   ```
+  
+ 
+  tip: build a zerotier network with tailscale
+  
+```
+  curl -fsSL https://tailscale.com/install.sh | sh
+  sudo tailscale up
+  ```
+
 

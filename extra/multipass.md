@@ -5,6 +5,12 @@ a quick way to run headless linux instance. you can install multipass on windows
 
 [download and install](https://multipass.run/install)
 
+official tutorial:
+[Windows](https://multipass.run/docs/windows-tutorial) |
+[Apple](https://multipass.run/docs/mac-tutorial) | 
+[Linux](https://multipass.run/docs/linux-tutorial)
+
+
 tip: install it on:
  - windows via chocolatey (choco install multipass).
  - mac via brew.sh (brew install multipass).
